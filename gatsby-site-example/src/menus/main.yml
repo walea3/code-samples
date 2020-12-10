@@ -1,0 +1,6 @@
+menu: main
+pages:
+  - page: Home
+  - page: Guides
+  - label: Design system
+    page: Design system overview

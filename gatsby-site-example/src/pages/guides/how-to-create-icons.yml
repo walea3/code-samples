@@ -1,0 +1,255 @@
+title: How to create icons
+authors:
+  - ME
+publishDate: 2019-07-18T23:00:00.000Z
+description: >-
+  Icons play an important role on our site and must be created in line with our
+  brand style
+thumbnail: /img/iconography.png
+heroImage:
+  lg: /img/guides_iconography_hero-large.png
+  sm: /img/guides_iconography_hero-small.png
+mainParagraph: >-
+  Icons play an important role on our site. They provide a visual representation
+  of the content and are a reflection of our brand. That’s why it’s important to
+  create icons in line with our brand style.
+sections:
+  - blocks:
+      - content: >-
+          Icons should not be confused with illustrations. They have an entirely
+          different purpose and should never be used for decorative purposes.
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Be created in Adobe Illustrator.
+              - Be saved out in an SVG format.
+              - Align to our pixel grid where possible.
+              - Have one purpose.
+              - Be approved by the NEL team.
+            title: 'All icons should always:'
+          - icon: dont
+            items:
+              - Be created in Sketch.
+              - Be open to interpretation.
+              - Include any letters or numbers.
+            title: 'All icons should never:'
+        type: rulesList
+    heading: Basic creation rules
+  - blocks:
+      - content: >-
+          We have four types of icons, which are used to convey different
+          information or trigger actions.
+        type: richText
+      - paragraphImages:
+          - heading: Action icons (32px & 40px)
+            image: /img/guide_icon_types_action.png
+            isFullWidth: false
+            text: >-
+              Action icons are buttons. The icon should either be created on a
+              16px grid (if its total size is 32px) or 20px (if its total size
+              is 40px). The icon should be supplied without the outer
+              focus/hover state (these are added in the code).
+          - heading: Static icons (20px)
+            image: /img/guide_icon_types_static.png
+            isFullWidth: false
+            text: >-
+              These sit in line with text, to highlight a message. They should
+              be used sparingly and always with the same purpose. They have no
+              interaction states.
+          - heading: System icons
+            image: /img/guide_icon_types_system.png
+            isFullWidth: false
+            text: >-
+              They should be supplied at their actual size. Unlike all the other
+              icon sets, these should use 3px stroke weights. Before creating a
+              system icon, please contact the NEL team, stating the purpose of
+              the icon.
+          - heading: Information icons (24px)
+            image: /img/guide_icon_types_information.png
+            isFullWidth: false
+            text: >-
+              These icons are used for validation and form part of the messaging
+              framework. They have no interaction state. Before creating an
+              information icon, please contact the NEL team, stating the purpose
+              of the icon.
+        type: paragraphImageGrid
+    heading: Icon types
+  - blocks:
+      - content: >-
+          ### Taking visual cues from the village icon
+
+
+          Our village icon is a key and recognisable part of our visual
+          identity. It consists of a tree, house and a church.
+
+
+          To create a consistent set of icons, we should take inspiration from
+          the village icon wherever possible.
+
+
+          ![](/img/guide_icon_characteristics_village.png)
+
+
+          1. **Shapes**<br>
+            Use filled shapes such as triangles and circles to evoke the shapes in the logo.
+
+          2. **Strokes**<br>
+            Consistent stroke width should be applied.
+
+          3. **Proximity and negative space**<br>
+            Proximity is the distance between objects. Negative space is the space within, between and around objects. In the village icon, it’s the space between the tree and the roof. This negative space allows the icon to breathe and adds character.
+
+          4. **Soft corners**<br>
+            A key characteristic of our visual identity is the use of soft edges.
+
+          5. **Right angles**<br>
+            Right angles are a key visual element of the logo.
+
+          6. **Perspective**<br>
+            Our icons should appear front on and not have any perspective or dimensions.
+
+          ### Pixel grids
+
+
+          When creating icons, objects should be aligned to the pixel grid
+          wherever possible. This will speed up the design process and create
+          consistency throughout our icon suite.
+
+
+          Different icon types will adhere to different size grids, but the
+          principles will be the same.
+
+
+          ![](/img/guide_icon_characteristics_grid.png)
+
+
+          ### Shape
+
+
+          Different icon types will adhere to different size grids, but the
+          principles will be the same.
+
+
+          ![](/img/guide_icon_characteristics_shape.png)
+
+
+          ### Stroke weight
+
+
+          To create a consistent set, we should always use a 2px stroke weight.
+          Using a 1px stroke doesn’t render very well on older displays.
+        type: richText
+      - rules:
+          - description: use a consistent 2px stroke
+            image: /img/guide_icon_characteristics_stroke_do.png
+            isLarge: false
+            label: 'Do:'
+            type: do
+          - description: >-
+              use 1px strokes as they won't render as strongly and will contrast
+              too much with filled shapes.
+            image: /img/guide_icon_characteristics_stroke_dont.png
+            isLarge: false
+            label: 'Don''t:'
+            type: dont
+        type: rulesBlock
+      - content: >-
+          ### End caps and round joins
+
+          Where possible we should use round caps and round joins. This can be
+          found in the stroke panel in Adobe Illustrator.
+
+          ![](/img/guide_icon_characteristics_end-caps.png)
+
+          ### Proximity
+
+          A minimum of 2px proximity should be applied to spaces between
+          objects. This stops elements from appearing visually too close when
+          viewed at 100%. When designing an icon, always check the resolution at
+          100% to see how it looks from the user's perspective.
+        type: richText
+      - rules:
+          - description: >-
+              use a proximity of 2px between objects. In this case the circular
+              camera lens has a distance of 2px to the camera body.
+            image: /img/guide_icon_characteristics_proximity_do.png
+            isLarge: false
+            label: 'Do:'
+            type: do
+          - description: >-
+              use less than 1px proximity between objects as they will appear
+              too close to each other when viewed at 100%.
+            image: /img/guide_icon_characteristics_proximity_dont.png
+            isLarge: false
+            label: 'Don''t:'
+            type: dont
+        type: rulesBlock
+      - content: >-
+          ### Corner radius
+
+          Consistent use of rounded corners should be applied, using either a
+          1px or 2px corner radius. Smaller objects tend to need a smaller
+          corner radius.
+        type: richText
+      - rules:
+          - description: use Adobe Illustrator's corner radius box to enter whole numbers.
+            image: /img/guide_icon_characteristics_corner_do.png
+            isLarge: false
+            label: 'Do:'
+            type: do
+          - description: use decimal numbers for rounding corners.
+            image: /img/guide_icon_characteristics_corner_dont-a.png
+            isLarge: false
+            label: 'Don''t:'
+            type: dont
+          - description: exaggerate the rounded corners or use sharp corners
+            image: /img/guide_icon_characteristics_corner_dont-b.png
+            isLarge: true
+            label: 'Don''t:'
+            type: dont
+        type: rulesBlock
+      - content: >-
+          ### Perspective
+
+          To create a consistent suite of icons, we should always use a front-on
+          view and no perspective.
+        type: richText
+    heading: Characteristics
+  - blocks:
+      - content: >-
+          ### Adobe Illustrator export settings
+
+
+          1. Before exporting, ensure icons are outlined. To do this, highlight
+          all paths, select the **‘object’** menu, then **‘Expand…’**.
+
+          2. Use the pathfinder to unite your outlined shapes into one compound
+          shape. This reduces the complexity of the icons and file size. To do
+          this, click **‘Window’** then **‘Pathfinder’**. Highlight all shapes
+          and click **‘Unite’**.
+
+          3. **‘Save’** the icon as an SVG using our naming convention. The
+          naming should be ‘ICON-TYPE_size_name.icon.svg’, so an example would
+          be ‘ACTION_32_clock.icon.svg’.
+
+          4. 'In the SVG options dialog box ensure **‘Responsive’** is not
+          ticked. CSS Properties should be set to **‘Presentation Attributes’**.
+
+
+
+          ![](/img/guide_icon_export_settings.png)
+
+
+          ### NEL Approval
+
+
+          1. Before using the icon, seek approval from the NEL team. To do this,
+          email the icon to the team at <mailto:nel@noopdigital.co.uk> and
+          explain its usage and function. This ensures we don’t duplicate an
+          icon that represents the same information or action.
+
+          2. Once approved the icon will follow the NEL distribution flow,
+          including Slack and Sketch library integration.
+        type: richText
+    heading: Exporting icons

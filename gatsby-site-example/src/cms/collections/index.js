@@ -1,0 +1,30 @@
+export default [
+  {
+    name: 'pages',
+    label: 'Pages',
+    delete: false,
+    editor: { preview: true },
+    files: [
+      require('./page.home').default,
+      require('./page.guides').default,
+      require('./page.design-system').default,
+      require('./page.brand-styles').default,
+      require('./page.foundations').default,
+      require('./page.patterns').default,
+      require('./page.templates').default,
+    ],
+  },
+  {
+    name: 'menus',
+    label: 'Menus',
+    delete: false,
+    editor: { preview: false },
+    files: [require('./menu.main').default, require('./menu.design-system').default],
+  },
+  require('./brand-styles').default,
+  require('./foundations').default,
+  require('./patterns').default,
+  require('./templates').default,
+  require('./author').default,
+  require('./guide').default,
+];

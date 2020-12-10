@@ -1,0 +1,47 @@
+menu: design-system
+overviewPage: Design system overview
+brandStyles:
+  heading: Brand styles
+  overviewPage: Brand styles
+  pages:
+    - page: Logo
+    - page: Colour
+    - page: Iconography
+    - page: Typography
+foundations:
+  heading: Layout foundations
+  overviewPage: Layout foundations
+  pages:
+    - page: Grid
+    - page: Spacing
+patterns:
+  heading: Patterns
+  overviewPage: Patterns
+  pages:
+    - page: Accordion
+    - page: Banners
+    - page: Breadcrumbs
+    - page: Cards
+    - page: Card headers
+    - page: Card footers
+    - page: Card with image
+    - page: Checkboxes
+    - page: CTAs and buttons
+    - page: Dropdowns
+    - page: D.O.B
+    - page: Eligibility messaging
+    - page: Form validation
+    - page: In-page messaging
+    - page: Input fields
+    - page: Links
+    - page: Lists
+    - page: Modals
+    - page: Radios
+    - page: Rep examples
+    - page: Tables
+    - page: Text areas
+    - page: Tooltips
+templates:
+  heading: Templates
+  overviewPage: Templates
+  pages: []

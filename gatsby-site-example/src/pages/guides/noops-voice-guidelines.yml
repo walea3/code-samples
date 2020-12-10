@@ -1,0 +1,101 @@
+title: Noop's voice guidelines
+authors:
+  - JH
+publishDate: 2019-07-28T23:00:00.000Z
+description: Information on our HELP voice guidelines.
+thumbnail: /img/guides-voice_header_small.png
+heroImage:
+  lg: /img/guides-voice_header_large.png
+  sm: /img/guides-voice_header_small.png
+mainParagraph: >-
+  Our voice expresses our brand’s unique personality. Although our tone will
+  change, our voice remains the same and should be consistent across
+  communications.
+sections:
+  - blocks:
+      - content: >-
+          Our voice is like no-one else’s – it reflects the very special
+          relationship we have with our members.
+
+
+          Our voice guidelines help us build a brand presence that resonates
+          with our members, and keep our writing style consistent. It will help
+          us create content that resonates with our members, to build brand
+          familiarity.
+        type: richText
+    heading: Why our voice is important
+  - blocks:
+      - content: |
+          ### Our voice considers things like:
+
+          * Our personality
+          * Our values
+          * The type of language we use
+
+          ### You can learn more about our voice in:
+          * Tone of voice technical guidelines
+          * Writing for our website
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Make us sound human.
+              - Show our members that we know them.
+              - Follow the HELP principles.
+              - Consider the best tone for the communication.
+              - Use an active voice.
+              - Always make sure content is easily understood.
+            title: 'Our voice should:'
+          - icon: dont
+            items:
+              - Give the impression ‘we’ are separate to our members.
+              - 'Create long, complex sentences.'
+              - Use jargon or internal terminology.
+              - Tell people how they should feel.
+              - Be afraid to apologise when we need to.
+              - Use a passive voice.
+            title: 'Our voice should not:'
+        type: rulesList
+    heading: The toolkit
+  - blocks:
+      - content: >-
+          Our HELP service principles are designed to build our brand, humanity
+          and dependability into the service we deliver. The way we talk to our
+          members is part of that. So, we’re using our HELP principles to guide
+          the way we talk and write to our members too.
+        type: richText
+      - paragraphImages:
+          - heading: Heartfelt
+            image: /img/guides-voice_help_heartfelt.png
+            isFullWidth: false
+            text: >-
+              It’s clear about why and how we’re so different. And it’s
+              empathetic, showing our members that we value them and will be
+              there for them when they need us.
+          - heading: Easy
+            image: /img/guides-voice_help_easy.png
+            isFullWidth: false
+            text: >-
+              It’s conversational and normal, rather than formal. It’s also
+              helpful and considerate. It’s about making our members’ lives
+              easier by being easy to deal with and understand.
+          - heading: Lifelong
+            image: /img/guides-voice_help_lifelong.png
+            isFullWidth: false
+            text: >-
+              It’s about recognising the individual. It always talks to our
+              members as equals, never parent to child, never telling them how
+              to feel. It’s not over familiar but it’s not corporate either.
+              it’s warm and respectful, sharing not selling. It’s about family
+              and belonging and being there for our members wherever they are in
+              life – not really a commercial relationship at all. It’s open and
+              honest.
+          - heading: Personal
+            image: /img/guides-voice_help_personal.png
+            isFullWidth: false
+            text: >-
+              Attributing a personality to our brand can help us when writing
+              for Noop. It helps us imagine how our brand speaks, ensuring
+              we bring a human element to our words.
+        type: paragraphImageGrid
+    heading: Our HELP language principles

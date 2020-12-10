@@ -1,0 +1,175 @@
+title: The NEL design principles
+authors:
+  - JH
+publishDate: 2019-09-10T14:51:46.998Z
+description: 'The fundamental values that we hold true, when creating experiences with NEL.'
+thumbnail: /img/guides_principles_header_small.png
+heroImage:
+  lg: /img/guides_principles_header_large.png
+  sm: /img/guides_principles_header_small.png
+mainParagraph: >-
+  Design principles are a set of fundamental truths that help us to create
+  stronger experiences. They are the common goals that align the disciplines and
+  teams working with the NEL system.
+sections:
+  - blocks:
+      - content: >-
+          ### 1. 'Done' doesn't exist
+
+
+          NEL’s design patterns have been tried and tested, and can be used time
+          and again. That doesn’t mean anything is definitive. We will
+          constantly build on our learnings, to pursue perfection – or very near
+          it.
+
+
+          ![](/img/guides_principles_done.png)
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Test everything with users – then test again.
+              - Encourage new ideas and make any relevant changes NEL.
+              - Make ‘day two’ happen.
+            title: 'We always:'
+          - icon: dont
+            items:
+              - Make decisions based on ‘intuition’.
+              - Accept first iterations as forever solutions.
+            title: 'We never:'
+        type: rulesList
+      - content: >-
+          ### 2. Collaboration galvanises our common goals
+
+
+          NEL enables us to collaborate and learn from each other, for a unified
+          approach. We’ll share knowledge, build relationships and work
+          together, to put our members (and their money) first.
+
+
+          ![](/img/guides_principles_common_goals.png)
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Work with other teams to identify the best approach.
+              - >-
+                Listen to different points of view, and explain our rationale to
+                others.
+              - >-
+                Welcome new insight and evidence that challenges our
+                perceptions.
+            title: 'We always:'
+          - icon: dont
+            items:
+              - Work in silo from the other teams.
+              - 'Assume we are right, and others are wrong.'
+            title: 'We never:'
+        type: rulesList
+      - content: >-
+          ### 3. Member in not Society out
+
+
+          Everything we do, from design to development, will have our members’
+          best interest at heart. After all, our members are Noop.
+
+
+          ![](/img/guides_principles_member.png)
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Take the time to understand the member’s perspective.
+              - >-
+                Put the member first in every decision – even if it’s not what
+                we personally want to do.
+            title: 'We always:'
+          - icon: dont
+            items:
+              - >-
+                Let business pressures influence decisions that could have a
+                negative impact.
+              - >-
+                Design to intentionally deter or distract the user from
+                achieving their task.
+            title: 'We never: '
+        type: rulesList
+      - content: >-
+          ### 4. A common language doesn’t stifle expression
+
+
+          NEL gives us freedom to experiment, and we will never stop exploring
+          new ideas. NEL’s design patterns and principles form our common
+          language. How we choose to communicate using this language is up to
+          us.
+
+
+          ![](/img/guides_principles_expression.png)
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Create functional and usable designs before creating delight.
+              - >-
+                Use appropriate techniques to create consistent visual
+                experiences across our digital estate.
+            title: 'We always: '
+          - icon: dont
+            items:
+              - Use unnecessary interface decoration.
+              - Stray away from the core visual design system components.
+            title: 'We never:'
+        type: rulesList
+      - content: >-
+          ### 5. Consistency is key
+
+
+          We will always be consistent, thanks to Noop’s Experience
+          Language. Being consistent helps our members recognise our brand, and
+          inspires confidence. Familiar colours, shapes and styles make our
+          brand easily identifiable, which in turn builds trust with our members
+          – however they choose to interact with us.
+
+
+          ![](/img/guides_principles_consistency.png)
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Ensure designs adhere to the experience language.
+              - Protect established patterns from misuse.
+            title: 'We always:'
+          - icon: dont
+            items:
+              - Compromise the experience language.
+              - >-
+                Implement new designs or styles without discussing requirements
+                with the NEL team.
+            title: 'We never: '
+        type: rulesList
+      - content: >-
+          ### 6. Momentum fuels motivation
+
+
+          We will stay energised by moving at pace. Progress isn’t always easy,
+          but keeping up the momentum helps us overcome problems and move
+          forward. After all, we will always look to iterate and improve.
+
+
+          ![](/img/guides_principles_motivation.png)
+        type: richText
+      - lists:
+          - icon: do
+            items:
+              - Keep our eyes on the bigger picture.
+              - >-
+                Bring passion to the team, to achieve the best outcomes
+                together.
+            title: 'We always: '
+          - icon: dont
+            items:
+              - Settle for second best and accept it in return.
+              - Shy away from a challenge.
+            title: 'We never: '
+        type: rulesList
+    heading: Our design principles

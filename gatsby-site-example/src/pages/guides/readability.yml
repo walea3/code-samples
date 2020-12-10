@@ -1,0 +1,156 @@
+title: Readability
+authors:
+  - JH
+publishDate: 2019-07-19T00:00:00.300Z
+description: Readability measures how easy text is to read on a page
+thumbnail: /img/readability.png
+heroImage:
+  lg: /img/guides_readability_hero-large.png
+  sm: /img/guides_readability_hero-small.png
+mainParagraph: >-
+  Readability measures how easy text is to read on a page. It helps us make sure
+  our content can be understood by everyone.
+
+
+  Readability scores are based on factors such as:
+
+  * complexity
+
+  * typography (line length 55-75 letters)
+
+  * sentence length
+
+  * syllables
+
+  * word familiarity
+sections:
+  - blocks:
+      - lists:
+          - icon: do
+            items:
+              - write for a reading age of 9
+              - keep sentences to a maximum of 16 words
+              - keep line length around 55-57 letters
+              - use shorter words
+              - break up large blocks of texts where possible
+              - user headers to aid skim reading
+              - use call out boxes to highlight important text
+              - test a page’s readability.
+            title: 'Aim to:'
+          - icon: dont
+            items:
+              - acronyms
+              - long sentences
+              - jargon
+              - including content purely to mitigate risk
+              - complex words
+              - duplicate content.
+            title: 'Avoid:'
+        type: rulesList
+      - content: >-
+          ### What you'll need
+
+
+          There are several readability tools to help you define the reading
+          age:
+
+
+          * [Readable.io](https://readable.io)
+
+          * [Webfx readability](https://www.webfx.com/tools/read-able/)
+
+
+          ### The readability score
+
+
+          Readability scores gives us a benchmark when writing content. Aim to
+          write for a reading age of 9 – the UK average.
+
+
+          ### Skim reading
+
+
+          The way we read is changing. Users are spending more time on digital
+          devices and reading text on a screen than in print. Studies show that
+          this is starting to have an effect on the way we read and digest
+          information.
+
+
+          “Ziming Liu from San Jose State University has conducted a series of
+          studies which indicate that the “new norm” in reading is skimming,
+          with word-spotting and browsing through the text. Many readers now use
+          an F or Z pattern when reading in which they sample the first line and
+          then word-spot through the rest of the text.”
+
+
+          **Source:** [The
+          Guardian](https://www.theguardian.com/commentisfree/2018/aug/25/skim-reading-new-normal-maryanne-wolf)
+        type: richText
+      - images:
+          - caption: F pattern example
+            image: /img/guide_readability_skim-reading_f-pattern.png
+          - caption: Z pattern example
+            image: /img/guide_readability_skim-reading_z-pattern.png
+        type: imagesWithCaption
+      - content: >-
+          Line length is the length between the left and right edges of a text
+          block. Shorter line lengths are easier to read, because your eyes
+          don’t have to travel as far; there is less distance between the end of
+          one line, and the start of the next.
+        type: richText
+      - rules:
+          - description: aim for 55-75 letters per line.
+            image: /img/guide_readability_line-length_do.png
+            isLarge: true
+            label: 'Do:'
+            type: do
+          - description: use long lines.
+            image: /img/guide_readability_line-length_dont.png
+            isLarge: true
+            label: 'Don''t:'
+            type: dont
+        type: rulesBlock
+      - content: >-
+          ### Sentence length
+
+
+          Using short sentences is best practise for several reasons:
+
+
+          * It makes content easier to digest.
+
+          * It’s easier to skim read.
+
+          * It’s best practise from an accessibility point of view.
+
+
+          The maximum length of a sentence should be 16 words.
+
+
+          ### Contractions
+
+
+          Evidence suggests that contractions are difficult to read. They slow
+          the user down, and can be misread. On the other hand, avoiding
+          contractions can make our voice sound stiff and robotic. So strike a
+          balance:
+
+
+          * use common contractions to strike the right tone (such as ‘it’s’,
+          they’re)
+
+          * don’t switch between contractions and the spelled out equivalents on
+          the same page
+
+          * avoid using contractions when it is important the user doesn’t
+          misinterpret the information
+
+          * never make a contraction out of a noun and a verb.
+
+
+          A good example would be '**Do not** share your PIN with anyone'
+
+
+          A bad example would be '**Don’t** share your PIN with anyone’.
+        type: richText
+    heading: The toolkit

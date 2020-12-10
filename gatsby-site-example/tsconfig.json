@@ -1,0 +1,11 @@
+{
+  "extends": "@nel-ui/tooling-typescript",
+  "references": [
+    { "path": "../../1.ui-foundations" },
+    { "path": "../../3.ui-libraries/react" },
+    { "path": "../../3.ui-libraries/styles" },
+    { "path": "../../tooling/react" },
+    { "path": "../../tooling/styling" }
+  ],
+  "files": []
+}
