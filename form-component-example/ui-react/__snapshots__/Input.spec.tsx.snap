@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> @renders as inline 1`] = `
+<div
+  class="nel-input nel-inlineInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders default 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders focusses input by clicking on prefix 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <div
+    class="nel-inputPrefix nel-inputPrefixSuffix"
+    data-ref="inputPrefix"
+    id="inputIdPrefix"
+  >
+    prefix
+  </div>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId inputIdPrefix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders focusses input by clicking on suffix 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId  inputIdSuffix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+  <div
+    class="nel-inputSuffix nel-inputPrefixSuffix"
+    data-ref="inputSuffix"
+    id="inputIdSuffix"
+  >
+    suffix
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders when disabled + with error alert 1`] = `
+<div
+  class="nel-input nel-disabledInput nel-errorInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-inputControl"
+    data-ref="input"
+    disabled=""
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when disabled + with warning alert 1`] = `
+<div
+  class="nel-input nel-disabledInput nel-warningInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-inputControl"
+    data-ref="input"
+    disabled=""
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when disabled 1`] = `
+<div
+  class="nel-input nel-disabledInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    disabled=""
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when focussed by focussing on input 1`] = `
+<div
+  class="nel-input nel-focussedInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when focussed by focussing on input: then blurred 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when focussed by focussing on prefix 1`] = `
+<div
+  class="nel-input nel-focussedInput"
+  data-ref="inputContainer"
+>
+  <div
+    class="nel-inputPrefix nel-inputPrefixSuffix"
+    data-ref="inputPrefix"
+    id="inputIdPrefix"
+  >
+    prefix
+  </div>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId inputIdPrefix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when focussed by focussing on prefix: then blurred 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <div
+    class="nel-inputPrefix nel-inputPrefixSuffix"
+    data-ref="inputPrefix"
+    id="inputIdPrefix"
+  >
+    prefix
+  </div>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId inputIdPrefix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders when focussed by focussing on suffix 1`] = `
+<div
+  class="nel-input nel-focussedInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId  inputIdSuffix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+  <div
+    class="nel-inputSuffix nel-inputPrefixSuffix"
+    data-ref="inputSuffix"
+    id="inputIdSuffix"
+  >
+    suffix
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders when focussed by focussing on suffix: then blurred 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId  inputIdSuffix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+  <div
+    class="nel-inputSuffix nel-inputPrefixSuffix"
+    data-ref="inputSuffix"
+    id="inputIdSuffix"
+  >
+    suffix
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with aria-labelledby, label, prefix & suffix 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="inputId"
+    id="inputIdLabel"
+  >
+    I am a test :)
+  </label>
+  <div
+    class="nel-input"
+    data-ref="inputContainer"
+  >
+    <div
+      class="nel-inputPrefix nel-inputPrefixSuffix"
+      data-ref="inputPrefix"
+      id="inputIdPrefix"
+    >
+      prefix
+    </div>
+    <input
+      aria-invalid="false"
+      aria-labelledby="extraInputLabel inputIdLabel inputId inputIdPrefix inputIdSuffix"
+      class="nel-inputControl"
+      data-ref="input"
+      id="inputId"
+    />
+    <div
+      class="nel-inputSuffix nel-inputPrefixSuffix"
+      data-ref="inputSuffix"
+      id="inputIdSuffix"
+    >
+      suffix
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with below minimum size 1`] = `
+<div
+  class="nel-input nel-inlineInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+    size="1"
+    style="width:56px"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with class name 1`] = `
+<div
+  class="nel-input test-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with data-ref 1`] = `
+<div
+  class="nel-input"
+  data-ref="uid.inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="uid.input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with data-ref with label 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="uid.fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="uid.fieldControlLabel"
+    for="inputId"
+    id="inputIdLabel"
+  >
+    I am a test :)
+  </label>
+  <div
+    class="nel-input"
+    data-ref="uid.inputContainer"
+  >
+    <input
+      aria-invalid="false"
+      class="nel-inputControl"
+      data-ref="uid.input"
+      id="inputId"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with data-ref with prefix & suffix 1`] = `
+<div
+  class="nel-input"
+  data-ref="uid.inputContainer"
+>
+  <div
+    class="nel-inputPrefix nel-inputPrefixSuffix"
+    data-ref="uid.inputPrefix"
+    id="inputIdPrefix"
+  >
+    prefix
+  </div>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId inputIdPrefix inputIdSuffix"
+    class="nel-inputControl"
+    data-ref="uid.input"
+    id="inputId"
+  />
+  <div
+    class="nel-inputSuffix nel-inputPrefixSuffix"
+    data-ref="uid.inputSuffix"
+    id="inputIdSuffix"
+  >
+    suffix
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with error alert 1`] = `
+<div
+  class="nel-input nel-errorInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with minimum size 1`] = `
+<div
+  class="nel-input nel-inlineInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+    size="2"
+    style="width:56px"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with other props 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-custom="uid"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with prefix & suffix 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <div
+    class="nel-inputPrefix nel-inputPrefixSuffix"
+    data-ref="inputPrefix"
+    id="inputIdPrefix"
+  >
+    prefix
+  </div>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId inputIdPrefix inputIdSuffix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+  <div
+    class="nel-inputSuffix nel-inputPrefixSuffix"
+    data-ref="inputSuffix"
+    id="inputIdSuffix"
+  >
+    suffix
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with prefix 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <div
+    class="nel-inputPrefix nel-inputPrefixSuffix"
+    data-ref="inputPrefix"
+    id="inputIdPrefix"
+  >
+    prefix
+  </div>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId inputIdPrefix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with size 1`] = `
+<div
+  class="nel-input nel-inlineInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+    size="5"
+    style="width:92px"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with size with style 1`] = `
+<div
+  class="nel-input nel-inlineInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+    size="1"
+    style="opacity:0.5;width:56px"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with style 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+    style="opacity:0.5"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with suffix 1`] = `
+<div
+  class="nel-input"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="false"
+    aria-labelledby="inputId  inputIdSuffix"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+  <div
+    class="nel-inputSuffix nel-inputPrefixSuffix"
+    data-ref="inputSuffix"
+    id="inputIdSuffix"
+  >
+    suffix
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with warning alert 1`] = `
+<div
+  class="nel-input nel-warningInput"
+  data-ref="inputContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-inputControl"
+    data-ref="input"
+    id="inputId"
+  />
+</div>
+`;
+
+exports[`<Input /> @renders with warning label + as inline 1`] = `
+<div
+  class="nel-fieldControlLabelContainer nel-inlineContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="inputId"
+    id="inputIdLabel"
+  >
+    Input label
+  </label>
+  <div
+    class="nel-input"
+    data-ref="inputContainer"
+  >
+    <input
+      aria-invalid="false"
+      class="nel-inputControl"
+      data-ref="input"
+      id="inputId"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with warning label + className 1`] = `
+<div
+  class="custom-input-labelContainer nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="inputId"
+    id="inputIdLabel"
+  >
+    Input label
+  </label>
+  <div
+    class="nel-input"
+    data-ref="inputContainer"
+  >
+    <input
+      aria-invalid="false"
+      class="nel-inputControl"
+      data-ref="input"
+      id="inputId"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Input /> @renders with warning label 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="inputId"
+    id="inputIdLabel"
+  >
+    Input label
+  </label>
+  <div
+    class="nel-input"
+    data-ref="inputContainer"
+  >
+    <input
+      aria-invalid="false"
+      class="nel-inputControl"
+      data-ref="input"
+      id="inputId"
+    />
+  </div>
+</div>
+`;

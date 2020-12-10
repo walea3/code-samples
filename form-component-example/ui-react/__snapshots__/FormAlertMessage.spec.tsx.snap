@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormAlertMessage /> @renders as default 1`] = `
+<div
+  class="nel-formAlertMessage nel-errorFormAlertMessage nel-prominent nel-message nel-errorMessage nel-prominent"
+  data-ref="message"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+    data-ref="icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+  <div
+    class="nel-messageContent"
+    data-ref="messageContent"
+  >
+    <p
+      class="nel-messageHeading nel-paragraph"
+      data-ref="messageHeader.text"
+    >
+      <strong
+        class="nel-strong nel-inlineText"
+        data-ref="text"
+      >
+        Foo
+      </strong>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormAlertMessage /> @renders as inlineFirstChild 1`] = `
+<div
+  class="nel-formAlertMessage nel-errorFormAlertMessage nel-prominent nel-message nel-errorMessage nel-prominent"
+  data-ref="message"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+    data-ref="icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+  <div
+    class="nel-messageContent nel-inlineFirstChild"
+    data-ref="messageContent"
+  >
+    <p
+      class="nel-messageHeading nel-paragraph"
+      data-ref="messageHeader.text"
+    >
+      <strong
+        class="nel-strong nel-inlineText"
+        data-ref="text"
+      >
+        Foo
+      </strong>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormAlertMessage /> @renders as inlineFirstChild warning 1`] = `
+<div
+  class="nel-formAlertMessage nel-warningFormAlertMessage nel-prominent nel-message nel-warningMessage nel-prominent"
+  data-ref="message"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-warning"
+    data-ref="icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+  <div
+    class="nel-messageContent nel-inlineFirstChild"
+    data-ref="messageContent"
+  >
+    <p
+      class="nel-messageHeading nel-paragraph"
+      data-ref="messageHeader.text"
+    >
+      <strong
+        class="nel-strong nel-inlineText"
+        data-ref="text"
+      >
+        Foo
+      </strong>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormAlertMessage /> @renders as warning 1`] = `
+<div
+  class="nel-formAlertMessage nel-warningFormAlertMessage nel-prominent nel-message nel-warningMessage nel-prominent"
+  data-ref="message"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-warning"
+    data-ref="icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+  <div
+    class="nel-messageContent"
+    data-ref="messageContent"
+  >
+    <p
+      class="nel-messageHeading nel-paragraph"
+      data-ref="messageHeader.text"
+    >
+      <strong
+        class="nel-strong nel-inlineText"
+        data-ref="text"
+      >
+        Foo
+      </strong>
+    </p>
+  </div>
+</div>
+`;

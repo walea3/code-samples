@@ -1,0 +1,1630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> @renders after blur 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders after blur when options are visible 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    style=""
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders after click when closed - dropdown opens 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="true"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown nel-openDropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="false"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    style="top: 0px;"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders after click when open 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-activedescendant="0"
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    style=""
+    tabindex="-1"
+  >
+    <li
+      aria-selected="true"
+      class="nel-dropdownOption nel-activeDropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders after focus 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders after opening with container ref 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing DOWN key when closed - dropdown open 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing DOWN key when closed with a selection not last option) - next option active 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  item 2
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing DOWN key when open with a selection not last option) - next option active 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  item 2
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing DOWN key when open with no selection - first option active 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing ENTER key when closed - dropdown open 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing ENTER key when open - dropdown close 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  item 1
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing ESCAPE key when open - dropdown close 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing SPACEBAR key when closed - dropdown open 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing SPACEBAR key when open - dropdown close 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  item 1
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing SPACEBAR key when open and with active option -  1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  item 2
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing TAB key when open - dropdown remains open 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing UP key when closed - dropdown open 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing UP key when open with a selection (not first option) - previous option active 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  item 2
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after pressing UP key when open with no selection - last option active 1`] = `
+<button
+  aria-expanded="true"
+  aria-haspopup="listbox"
+  aria-invalid="false"
+  class="nel-dropdown nel-openDropdown"
+  data-ref="dropdown"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="nel-dropdownIcon nel-icon nel-sys"
+    data-ref="dropdown.icon"
+    focusable="false"
+    height="1"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 1 1"
+    width="1"
+  />
+</button>
+`;
+
+exports[`<Dropdown /> @renders after value changes 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    item 3
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-activedescendant="2"
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="true"
+      class="nel-dropdownOption nel-selectedDropdownOption nel-activeDropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders default 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders when disabled 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown nel-disabledDropdown"
+    data-ref="dropdown"
+    disabled=""
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with aria-labelledby 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    aria-labelledby="test"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    aria-labelledby="test"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with aria-required 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    aria-required="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with class name 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown test-input"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions test-input"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with data-label-id 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    aria-labelledby="label"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    aria-labelledby="label"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with data-label-id and aria-labelledby 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    aria-labelledby="label test"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    aria-labelledby="label test"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with data-ref 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="uid.dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="uid.dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="uid.dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="uid.dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="uid.dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="uid.dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with default selected option 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    placeholder="Please select"
+    type="button"
+  >
+    item 3
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-activedescendant="2"
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="true"
+      class="nel-dropdownOption nel-selectedDropdownOption nel-activeDropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with error alert 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="true"
+    class="nel-dropdown nel-errorDropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with label + className 1`] = `
+<div
+  class="custom-dropdown-labelContainer nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    id="undefinedLabel"
+  >
+    Input label
+  </label>
+  <div
+    class="nel-dropdownContainer"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-invalid="false"
+      aria-labelledby="undefinedLabel"
+      class="nel-dropdown"
+      data-ref="dropdown"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="nel-dropdownIcon nel-icon nel-sys"
+        data-ref="dropdown.icon"
+        focusable="false"
+        height="1"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 1 1"
+        width="1"
+      />
+    </button>
+    <ul
+      aria-hidden="true"
+      class="nel-dropdownOptions"
+      data-ref="dropdownList"
+      role="listbox"
+      tabindex="-1"
+    >
+      <li
+        aria-selected="false"
+        class="nel-dropdownOption nel-text"
+        data-ref="dropdownOption.text"
+        id="0"
+        role="option"
+      >
+        item 1
+      </li>
+      <li
+        aria-selected="false"
+        class="nel-dropdownOption nel-text"
+        data-ref="dropdownOption.text"
+        id="1"
+        role="option"
+      >
+        item 2
+      </li>
+      <li
+        aria-selected="false"
+        class="nel-dropdownOption nel-text"
+        data-ref="dropdownOption.text"
+        id="2"
+        role="option"
+      >
+        item 3
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with label 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    id="undefinedLabel"
+  >
+    Please select
+  </label>
+  <div
+    class="nel-dropdownContainer"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-invalid="false"
+      aria-labelledby="undefinedLabel"
+      class="nel-dropdown"
+      data-ref="dropdown"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="nel-dropdownIcon nel-icon nel-sys"
+        data-ref="dropdown.icon"
+        focusable="false"
+        height="1"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 1 1"
+        width="1"
+      />
+    </button>
+    <ul
+      aria-hidden="true"
+      class="nel-dropdownOptions"
+      data-ref="dropdownList"
+      role="listbox"
+      tabindex="-1"
+    >
+      <li
+        aria-selected="false"
+        class="nel-dropdownOption nel-text"
+        data-ref="dropdownOption.text"
+        id="0"
+        role="option"
+      >
+        item 1
+      </li>
+      <li
+        aria-selected="false"
+        class="nel-dropdownOption nel-text"
+        data-ref="dropdownOption.text"
+        id="1"
+        role="option"
+      >
+        item 2
+      </li>
+      <li
+        aria-selected="false"
+        class="nel-dropdownOption nel-text"
+        data-ref="dropdownOption.text"
+        id="2"
+        role="option"
+      >
+        item 3
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with other props 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    aria-labelledby="test"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    id="test"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with placeholder 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="false"
+    class="nel-dropdown"
+    data-ref="dropdown"
+    placeholder="Please select"
+    type="button"
+  >
+    Please select
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown /> @renders with warning alert 1`] = `
+<div
+  class="nel-dropdownContainer"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-invalid="true"
+    class="nel-dropdown nel-warningDropdown"
+    data-ref="dropdown"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-dropdownIcon nel-icon nel-sys"
+      data-ref="dropdown.icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+  </button>
+  <ul
+    aria-hidden="true"
+    class="nel-dropdownOptions"
+    data-ref="dropdownList"
+    role="listbox"
+    tabindex="-1"
+  >
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="0"
+      role="option"
+    >
+      item 1
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="1"
+      role="option"
+    >
+      item 2
+    </li>
+    <li
+      aria-selected="false"
+      class="nel-dropdownOption nel-text"
+      data-ref="dropdownOption.text"
+      id="2"
+      role="option"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;

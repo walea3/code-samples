@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@nel-ui/form-styles css 1`] = `
+".nel-formAlertMessage:not(.nel-prominent) {
+  margin-top: 12px;
+}
+.nel-prominent {
+  padding-left: 16px;
+}
+@media (min-width: 30em) {
+  .nel-prominent {
+    padding-left: 24px;
+  }
+}
+@media (min-width: 63.75em) {
+  .nel-prominent {
+    padding-left: 32px;
+  }
+}
+.nel-prominent.nel-errorFormAlertMessage {
+  border-left: 4px solid #d83734;
+}
+.nel-prominent.nel-warningFormAlertMessage {
+  border-left: 4px solid #f9a62b;
+  border-radius: 0;
+}
+.nel-input {
+  font: 400 18px/1.3333333333333333 NBS, -apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Oxygen, Ubuntu, Cantarell, \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif;
+  color: #42424c;
+  border: 1px solid #89898f;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 12px;
+  transition: border, box-shadow, background-color;
+  border-radius: 4px;
+  letter-spacing: 0px;
+  transition-duration: 0.2s;
+}
+@media (min-width: 48em) {
+  .nel-input {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+.nel-input:focus {
+  outline: 0;
+}
+.nel-input:focus:not(.nel-disabledInput) {
+  box-shadow: 0 0 0 4px #80bce4;
+  border-color: #0078c8;
+}
+.nel-inputContainer {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+}
+.nel-inputControl {
+  flex: 1 1 auto;
+  display: inline-block;
+  padding: 6px 12px;
+  min-width: 56px;
+}
+.nel-inputControl::placeholder {
+  color: #42424c;
+}
+.nel-inputControl:focus {
+  outline: 0;
+}
+.nel-inputControl:first-child {
+  padding-left: 12px;
+}
+.nel-inputControl:last-child {
+  padding-right: 12px;
+}
+.nel-inputControl[type=\\"number\\"] {
+  -webkit-appearance: textfield;
+}
+.nel-inputControl::-webkit-inner-spin-button, .nel-inputControl::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+.nel-inputPrefixSuffix {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nel-inputPrefixSuffix, .nel-inputPrefixSuffix > * {
+  white-space: nowrap;
+}
+.nel-inputPrefix {
+  padding-left: 12px;
+}
+.nel-inputSuffix {
+  padding-right: 12px;
+}
+.nel-inlineInput {
+  width: auto;
+  display: inline-flex;
+  vertical-align: middle;
+}
+:not(.nel-fieldBody) > .nel-inlineInput:not(.nel-inputContainer) {
+  margin-top: 0px;
+}
+.nel-field .nel-inlineInput {
+  align-self: flex-start;
+}
+@media (min-width: 48em) {
+  :not(.nel-fieldBody) > .nel-inlineInput:not(.nel-inputContainer) {
+    margin-top: 0px;
+  }
+}
+.nel-disabledInput {
+  cursor: not-allowed;
+  background: #f3f3f4;
+}
+.nel-disabledInput * {
+  pointer-events: none;
+}
+.nel-errorInput:not(.nel-disabledInput) {
+  background: #fbebeb;
+  border-color: #d83734;
+}
+.nel-errorInput:not(.nel-disabledInput):focus, .nel-errorInput:not(.nel-disabledInput).nel-focussedInput {
+  box-shadow: 0 0 0 4px #ec9b9a;
+  border-color: #d83734;
+}
+.nel-warningInput:not(.nel-disabledInput) {
+  background: #fef6ea;
+  border-color: #f9a62b;
+}
+.nel-warningInput:not(.nel-disabledInput):focus, .nel-warningInput:not(.nel-disabledInput).nel-focussedInput {
+  box-shadow: 0 0 0 4px #fcd395;
+  border-color: #f9a62b;
+}
+.nel-focussedInput {
+  outline: 0;
+}
+.nel-focussedInput:not(.nel-disabledInput) {
+  box-shadow: 0 0 0 4px #80bce4;
+  border-color: #0078c8;
+}
+.nel-fieldControlLabelContainer {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+}
+.nel-inputLabel {
+  font: 400 18px/1.3333333333333333 NBS, -apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Oxygen, Ubuntu, Cantarell, \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif;
+  color: #42424c;
+  margin-right: 8px;
+  letter-spacing: 0px;
+}
+@media (min-width: 48em) {
+  .nel-inputLabel {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+.nel-inlineContainer {
+  width: auto;
+  display: inline-flex;
+  vertical-align: middle;
+}
+:not(.nel-fieldBody) > .nel-inlineContainer:not(.nel-fieldControlLabelContainer) {
+  margin-top: 0px;
+}
+.nel-field .nel-inlineContainer {
+  align-self: flex-start;
+}
+.nel-inlineContainer.nel-fieldControlLabelContainer {
+  margin-right: 16px;
+}
+@media (min-width: 48em) {
+  :not(.nel-fieldBody) > .nel-inlineContainer:not(.nel-fieldControlLabelContainer) {
+    margin-top: 0px;
+  }
+}
+.nel-textarea {
+  font: 400 18px/1.3333333333333333 NBS, -apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Oxygen, Ubuntu, Cantarell, \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif;
+  width: 100%;
+  color: #42424c;
+  height: auto;
+  padding: 6px 12px;
+  word-wrap: break-word;
+  overflow-y: auto;
+  min-height: 160px;
+  word-break: break-all;
+  white-space: pre-wrap;
+  letter-spacing: 0px;
+}
+@media (min-width: 48em) {
+  .nel-textarea {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+.nel-textarea::placeholder {
+  color: #42424c;
+}
+.nel-field .nel-textarea {
+  align-self: flex-start;
+}
+.nel-checkRadioContainer {
+  display: flex;
+  padding-top: 16px;
+}
+.nel-checkRadioContainer:not(:only-child):not(:last-of-type):not(.nel-inlineCheckRadio) {
+  padding-bottom: 8px;
+}
+.nel-checkRadioInput {
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  position: absolute !important;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.nel-checkRadioInput:not(:disabled):checked + .nel-checkRadio:not(.nel-errorCheckRadio):not(.nel-warningCheckRadio)     > .nel-checkRadioControl {
+  border-color: #0078c8;
+  background-color: #0078c8;
+}
+.nel-checkRadioInput:disabled + .nel-checkRadio {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.nel-checkRadioInput:disabled:not(:checked) + .nel-checkRadio > .nel-checkRadioControl {
+  background: #f3f3f4;
+}
+.nel-checkRadioInput:disabled + .nel-checkRadio > .nel-checkRadioControl {
+  color: #f3f3f4;
+  background: #d0d0d2;
+  border-color: #89898f;
+}
+.nel-checkRadio {
+  font: 400 18px/1.3333333333333333 NBS, -apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Oxygen, Ubuntu, Cantarell, \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif;
+  color: #42424c;
+  display: flex;
+  align-items: flex-start;
+  letter-spacing: 0px;
+}
+@media (min-width: 48em) {
+  .nel-checkRadio {
+    font-size: 20px;
+    line-height: 1.4;
+    align-items: initial;
+  }
+}
+.nel-field .nel-checkRadio {
+  align-self: flex-start;
+}
+.nel-inlineField .nel-checkRadio {
+  margin-right: 16px;
+}
+.nel-checkRadioInput:not(:disabled) + .nel-checkRadio {
+  cursor: pointer;
+}
+.nel-checkRadioInput:disabled + .nel-checkRadio {
+  cursor: not-allowed;
+}
+@media (min-width: 30em) {
+  .nel-inlineField .nel-checkRadio {
+    margin-right: 24px;
+  }
+}
+@media (min-width: 63.75em) {
+  .nel-inlineField .nel-checkRadio {
+    margin-right: 32px;
+  }
+}
+.nel-checkRadioInput:not(:disabled):focus + .nel-checkRadio:not(.nel-errorCheckRadio):not(.nel-warningCheckRadio) > .nel-checkRadioControl, .nel-checkRadioInput:not(:disabled) + .nel-checkRadio:hover:not(.nel-errorCheckRadio):not(.nel-warningCheckRadio) > .nel-checkRadioControl {
+  box-shadow: 0 0 0 4px #80bce4;
+  border-color: #0078c8;
+}
+.nel-checkRadioInput:not(:disabled):focus + .nel-checkRadio.nel-errorCheckRadio > .nel-checkRadioControl, .nel-checkRadioInput:not(:disabled) + .nel-checkRadio:hover.nel-errorCheckRadio > .nel-checkRadioControl {
+  box-shadow: 0 0 0 4px #ec9b9a;
+  border-color: #d83734;
+}
+.nel-checkRadioInput:not(:disabled):focus + .nel-checkRadio.nel-warningCheckRadio > .nel-checkRadioControl, .nel-checkRadioInput:not(:disabled) + .nel-checkRadio:hover.nel-warningCheckRadio > .nel-checkRadioControl {
+  box-shadow: 0 0 0 4px #fcd395;
+}
+.nel-checkRadioControl {
+  fill: currentColor;
+  width: 27px;
+  color: #ffffff;
+  cursor: inherit;
+  height: 27px;
+  border: 1px solid #89898f;
+  outline: none;
+  overflow: hidden;
+  transition: box-shadow, background-color, color, border;
+  flex-shrink: 0;
+  margin-right: 12px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition-duration: 0.2s;
+}
+.nel-inlineCheckRadio .nel-checkRadio {
+  display: inline-flex;
+  margin-right: 16px;
+}
+@media (min-width: 30em) {
+  .nel-inlineCheckRadio .nel-checkRadio {
+    margin-right: 24px;
+  }
+}
+@media (min-width: 63.75em) {
+  .nel-inlineCheckRadio .nel-checkRadio {
+    margin-right: 32px;
+  }
+}
+.nel-checkedCheckRadio + .nel-checkRadio:not(.nel-errorCheckRadio):not(.nel-warningCheckRadio)     > .nel-checkRadioControl {
+  border-color: #0078c8;
+  background-color: #0078c8;
+}
+.nel-disabledCheckRadio + .nel-checkRadio {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.nel-disabledCheckRadio:not(:checked) + .nel-checkRadio > .nel-checkRadioControl {
+  background: #f3f3f4;
+}
+.nel-disabledCheckRadio + .nel-checkRadio > .nel-checkRadioControl {
+  color: #f3f3f4;
+  background: #d0d0d2;
+  border-color: #89898f;
+}
+.nel-interactionCheckRadio:not(.nel-errorCheckRadio):not(.nel-warningCheckRadio) > .nel-checkRadioControl {
+  box-shadow: 0 0 0 4px #80bce4;
+  border-color: #0078c8;
+}
+.nel-interactionCheckRadio.nel-errorCheckRadio > .nel-checkRadioControl {
+  box-shadow: 0 0 0 4px #ec9b9a;
+  border-color: #d83734;
+}
+.nel-interactionCheckRadio.nel-warningCheckRadio > .nel-checkRadioControl {
+  box-shadow: 0 0 0 4px #fcd395;
+}
+.nel-errorCheckRadio > .nel-checkRadioControl {
+  color: #fbebeb;
+  border-color: #d83734;
+  background-color: #fbebeb;
+}
+.nel-checkRadioInput:not(:disabled):checked + .nel-errorCheckRadio > .nel-checkRadioControl {
+  background-color: #d83734;
+}
+.nel-warningCheckRadio > .nel-checkRadioControl {
+  color: #fef6ea;
+  border-color: #f9a62b;
+  background-color: #fef6ea;
+}
+.nel-checkRadioInput:not(:disabled):checked + .nel-warningCheckRadio > .nel-checkRadioControl {
+  background-color: #f9a62b;
+}
+.nel-checkRadioGroup {
+  display: flex;
+}
+.nel-checkRadioGroupInner {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+.nel-checkRadioGroupInner.nel-mobileInlineGroup {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  flex-direction: row;
+}
+@media (min-width: 30em) {
+  .nel-checkRadioGroupInner.nel-largeInlineGroup {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-direction: row;
+  }
+}
+.nel-radio > .nel-checkRadioControl {
+  border-radius: 50%;
+}
+.nel-field {
+  margin-top: 28px;
+}
+@media (min-width: 48em) {
+  .nel-field {
+    margin-top: 32px;
+  }
+}
+.nel-fieldWithTopAction {
+  flex-wrap: wrap;
+}
+.nel-fieldWithTopAction > * {
+  flex: 0 1 100%;
+}
+.nel-fieldWithTopAction > .nel-fieldActionRight {
+  flex-shrink: 0;
+}
+.nel-fieldBody {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  flex-direction: column;
+}
+.nel-inlineField > .nel-fieldBody {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  flex-direction: row;
+}
+.nel-fieldBody + .nel-fieldActions {
+  margin-top: 8px;
+}
+.nel-fieldLabelContainer {
+  flex: 1 1 0%;
+  display: inline;
+}
+.nel-field .nel-fieldLabel {
+  display: inline;
+}
+.nel-fieldLabelWithAction {
+  margin-right: 16px;
+}
+.nel-fieldActions {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+.nel-fieldAction {
+  flex-basis: auto;
+}
+.nel-fieldAction > * {
+  margin-top: 0px;
+  min-height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.nel-fieldAction:not(:only-child) {
+  max-width: 50%;
+}
+.nel-fieldAction:not(:only-child):first-child {
+  margin-right: 16px;
+}
+@media (min-width: 48em) {
+  .nel-fieldAction > * {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 30em) {
+  .nel-fieldAction > * {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 63.75em) {
+  .nel-fieldAction > * {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+.nel-fieldActionRight {
+  margin-left: auto;
+}
+.nel-fieldActionRight > * {
+  text-align: right;
+}
+.nel-alertField {
+  padding-left: 16px;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+@media (min-width: 30em) {
+  .nel-alertField {
+    padding-left: 24px;
+  }
+}
+@media (min-width: 63.75em) {
+  .nel-alertField {
+    padding-left: 32px;
+  }
+}
+.nel-errorAlertField {
+  border-color: #d83734;
+}
+.nel-warningAlertField {
+  border-color: #f9a62b;
+}
+.nel-dropdownContainer {
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  margin-top: 12px;
+}
+.nel-field .nel-dropdownContainer {
+  align-self: flex-start;
+}
+@media (min-width: 48em) {
+  .nel-dropdownContainer {
+    max-width: 400px;
+  }
+}
+.nel-dropdown {
+  flex: 1 0 auto;
+  color: #42424c;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #89898f;
+  height: 100%;
+  padding: 5px 12px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  transition: box-shadow, background-color, border;
+  align-items: center;
+  white-space: nowrap;
+  padding-right: 46px;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+}
+.nel-dropdown:before {
+  top: 0;
+  width: 46px;
+  right: 0;
+  bottom: 0;
+  content: '';
+  z-index: 701;
+  position: absolute;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, #ffffff 40%);
+  border-radius: 4px;
+}
+.nel-dropdown:after {
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  content: '';
+  position: absolute;
+  margin-top: -4px;
+}
+.nel-dropdown[aria-expanded=\\"true\\"], .nel-dropdown:focus, .nel-dropdown:active, .nel-dropdown:hover {
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 0 4px #80bce4;
+  border-color: #0078c8;
+}
+.nel-dropdownIcon {
+  top: 50%;
+  right: 12px;
+  z-index: 702;
+  position: absolute;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.nel-dropdownOptions {
+  border: 1px solid #0078c8;
+  opacity: 0;
+  z-index: 703;
+  outline: none;
+  position: relative;
+  min-width: 100%;
+  max-height: 0;
+  overflow-y: scroll;
+  background: #ffffff;
+  border-radius: 4px;
+  pointer-events: none;
+}
+.nel-dropdownOption {
+  padding: 6px 12px;
+  padding-right: 46px;
+  pointer-events: none;
+}
+.nel-dropdownOption:focus:not(.nel-selectedDropdownOption), .nel-dropdownOption:active:not(.nel-selectedDropdownOption), .nel-dropdownOption:hover:not(.nel-selectedDropdownOption) {
+  cursor: default;
+  outline: none;
+  background: #e6f2fa;
+}
+.nel-openDropdown:after {
+  z-index: 704;
+  background: #d0d0d2;
+}
+.nel-openDropdown + .nel-dropdownOptions {
+  opacity: 1;
+  max-height: 400px;
+  pointer-events: all;
+}
+.nel-openDropdown:not(.nel-openDropdownAbove) + .nel-dropdownOptions {
+  margin-top: -4px;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.nel-openDropdown + .nel-dropdownOptions .nel-dropdownOption {
+  pointer-events: all;
+}
+.nel-openDropdownAbove:after {
+  top: 0;
+  margin-top: 3px;
+}
+.nel-openDropdownAbove + .nel-dropdownOptions {
+  margin-top: 4px;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.nel-warningDropdown {
+  border-color: #f9a62b;
+  background-color: #fef6ea;
+}
+.nel-warningDropdown[aria-expanded=\\"true\\"], .nel-warningDropdown:focus, .nel-warningDropdown:active, .nel-warningDropdown:hover {
+  box-shadow: 0 0 0 4px #fcd395;
+  border-color: #f9a62b;
+}
+.nel-warningDropdown:before {
+  background: linear-gradient(to right, rgba(254,246,234,0) 0%, #fef6ea 40%);
+}
+.nel-warningDropdown + .nel-dropdownOptions {
+  background: #fef6ea;
+  border-color: #f9a62b;
+}
+.nel-warningDropdown + .nel-dropdownOptions .nel-dropdownOption:focus:not(.nel-selectedDropdownOption), .nel-warningDropdown + .nel-dropdownOptions .nel-dropdownOption:active:not(.nel-selectedDropdownOption), .nel-warningDropdown + .nel-dropdownOptions .nel-dropdownOption:hover:not(.nel-selectedDropdownOption) {
+  background: #fcd395;
+}
+.nel-warningDropdown + .nel-dropdownOptions .nel-dropdownOption.nel-activeDropdownOption {
+  background: #fcd395;
+}
+.nel-warningDropdown + .nel-dropdownOptions .nel-dropdownOption.nel-selectedDropdownOption {
+  background: #f9a62b;
+}
+.nel-errorDropdown {
+  border-color: #d83734;
+  background-color: #fbebeb;
+}
+.nel-errorDropdown[aria-expanded=\\"true\\"], .nel-errorDropdown:focus, .nel-errorDropdown:active, .nel-errorDropdown:hover {
+  box-shadow: 0 0 0 4px #ec9b9a;
+  border-color: #d83734;
+}
+.nel-errorDropdown:before {
+  background: linear-gradient(to right, rgba(251,235,235,0) 0%, #fbebeb 40%);
+}
+.nel-errorDropdown + .nel-dropdownOptions {
+  background: #fbebeb;
+  border-color: #d83734;
+}
+.nel-errorDropdown + .nel-dropdownOptions .nel-dropdownOption:focus:not(.nel-selectedDropdownOption), .nel-errorDropdown + .nel-dropdownOptions .nel-dropdownOption:active:not(.nel-selectedDropdownOption), .nel-errorDropdown + .nel-dropdownOptions .nel-dropdownOption:hover:not(.nel-selectedDropdownOption) {
+  background: #ec9b9a;
+}
+.nel-errorDropdown + .nel-dropdownOptions .nel-dropdownOption.nel-activeDropdownOption {
+  background: #ec9b9a;
+}
+.nel-errorDropdown + .nel-dropdownOptions .nel-dropdownOption.nel-selectedDropdownOption {
+  background: #d83734;
+}
+.nel-disabledDropdown {
+  cursor: not-allowed;
+  background: #f3f3f4;
+  user-select: none;
+  pointer-events: none;
+}
+.nel-disabledDropdown:before {
+  background: linear-gradient(to right, rgba(243,243,244,0) 0%, #f3f3f4 40%);
+}
+.nel-disabledDropdown > .nel-dropdownIcon {
+  fill: #89898f;
+}
+.nel-activeDropdownOption {
+  background: #e6f2fa;
+}
+.nel-selectedDropdownOption {
+  color: #ffffff;
+  background: #0078c8;
+}"
+`;
+
+exports[`@nel-ui/form-styles theme 1`] = `
+Object {
+  "checkRadioDisabledBackgroundColour": "#d0d0d2",
+  "checkRadioDisabledBorder": "#89898f",
+  "checkRadioDisabledCheck": "#f3f3f4",
+  "checkRadioDisabledSelectedBackgroundColour": "#f3f3f4",
+  "checkRadioLabelSpacing": 12,
+  "checkRadioSize": 28,
+  "dropdownDividerZIndex": 704,
+  "dropdownFadeZIndex": 701,
+  "dropdownHeight": 40,
+  "dropdownMaxHeight": 400,
+  "dropdownMaxWidth": 400,
+  "dropdownOptionsZIndex": 703,
+  "dropdownProximity": 3,
+  "dropdownTextFadeWidth": 46,
+  "dropdownTextHorizontalSpacing": 3,
+  "dropdownTextVerticalSpacing": 1.5,
+  "dropdownZIndexIcon": 702,
+  "fieldActionMaxWidth": "50%",
+  "fieldActionOffset": 16,
+  "fieldActionProximity": 2,
+  "fieldAlertBorderSize": 4,
+  "fieldAlertIconSpacer": 2,
+  "fieldProximity": 6,
+  "formAlertMessageBorderColourError": "#d83734",
+  "formAlertMessageBorderColourWarning": "#f9a62b",
+  "formAlertMessageBorderError": "4px solid #d83734",
+  "formAlertMessageBorderSize": 4,
+  "formAlertMessageBorderStyle": "solid",
+  "formAlertMessageBorderWarning": "4px solid #f9a62b",
+  "formAlertMessageIconSpacer": 2,
+  "formControlBorderColour": "#89898f",
+  "formControlBorderRadius": 4,
+  "formControlBorderSize": 1,
+  "formControlInteractionBorderSize": 4,
+  "formControlSpacingHorizontal": 12,
+  "formControlSpacingVertical": 6,
+  "inputHeight": 40,
+  "inputInlineSpacing": 16,
+  "inputLabelProximity": 4,
+  "inputLabelSpacing": 8,
+  "inputProximity": 3,
+  "radioBorderRadio": "50%",
+  "textareaMaxColumnWidth": 8,
+  "textareaMinHeight": 160,
+}
+`;

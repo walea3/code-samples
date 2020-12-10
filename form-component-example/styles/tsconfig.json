@@ -1,0 +1,15 @@
+{
+  "extends": "@nel-ui/tooling-typescript",
+  "exclude": ["dist", "**/*.spec.*"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../../../1.ui-foundations" },
+    { "path": "../../typography/styles" },
+    { "path": "../../../tooling/styling" }
+  ]
+}

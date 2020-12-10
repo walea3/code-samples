@@ -1,0 +1,4 @@
+test: |
+  "This is a very long sentence that spans several lines
+  in the YAML, which will be rendered as a string with carriage returns.
+  this is a loooooooooooooooooooooooooooooooooooooooooooonggggggggggggggggggggggggggggggggggggg content."

@@ -1,0 +1,20 @@
+{
+  "name": "@nel-ui/form-styles",
+  "version": "0.1.0-beta.9",
+  "description": "NEL Form - Design Tokens & Styles",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "*.less"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nel-ui/foundations": "0.1.0-beta.8",
+    "@nel-ui/tooling-styling": "0.1.0-beta.1",
+    "@nel-ui/typography-styles": "0.1.0-beta.8"
+  }
+}

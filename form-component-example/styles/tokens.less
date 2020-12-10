@@ -1,0 +1,81 @@
+@import '~@nel-ui/foundations/tokens.less';
+
+@formControlSpacingVertical: 6;
+@formControlSpacingHorizontal: 12;
+@formControlBorderRadius: 4;
+@formControlBorderSize: 1;
+@formControlInteractionBorderSize: 4;
+@formControlBorderColour: @colourUi50;
+
+@fieldProximity: 6;
+
+/**
+ * Field action
+ */
+@fieldActionProximity: 2;
+@fieldActionOffset: 16;
+@fieldActionMaxWidth: 50%;
+
+/**
+ * Field Alert
+ */
+@fieldAlertBorderSize: 4;
+
+/**
+ * FormAlertMessage
+ */
+@formAlertMessageBorderSize: @fieldAlertBorderSize + 'px';
+@formAlertMessageBorderStyle: 'solid';
+@formAlertMessageBorderColourWarning: @colourInteractionError100;
+@formAlertMessageBorderColourError: @colourInteractionError100;
+
+@formAlertMessageBorderWarning: @formAlertMessageBorderSize @formAlertMessageBorderStyle @formAlertMessageBorderColourWarning;
+@formAlertMessageBorderError: @formAlertMessageBorderSize @formAlertMessageBorderStyle @formAlertMessageBorderColourError;
+
+/**
+ * Input
+ */
+@inputHeight: 40;
+@inputProximity: 3;
+@inputLabelProximity: 4;
+@inputLabelSpacing: 8;
+@inputInlineSpacing: 16;
+
+/**
+ * Textarea
+ */
+@textareaMinHeight: 160;
+@textareaMaxColumnWidth: 8;
+
+/**
+ * Checkbox / Radio
+ */
+@checkRadioDisabledCheck: @colourUi05;
+@checkRadioDisabledBackgroundColour: @colourUi20;
+@checkRadioDisabledSelectedBackgroundColour: @colourUi05;
+
+@checkRadioDisabledBorder: @colourUi50;
+@checkRadioSize: 28;
+@checkRadioLabelSpacing: 12;
+@radioBorderRadio: 50%;
+
+/**
+ * Dropdown
+ */
+
+// TODO: Requires calculation
+@dropdownZIndexBase: 700;
+@dropdownDividerZIndex: @dropdownZIndexBase + 4;
+@dropdownOptionsZIndex: @dropdownZIndexBase + 3;
+@dropdownZIndexIcon: @dropdownZIndexBase + 2;
+@dropdownFadeZIndex: @dropdownZIndexBase + 1;
+
+@dropdownProximity: 3;
+@dropdownHeight: 40;
+@dropdownMaxHeight: 400;
+@dropdownMaxWidth: 400;
+@dropdownTextFadeWidth: 46;
+@dropdownTextVerticalSpacing: 1.5;
+@dropdownTextHorizontalSpacing: 3;
+
+@fieldAlertIconSpacer: 2;

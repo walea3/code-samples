@@ -1,0 +1,2209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Field /> @renders as a fieldset 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldset"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <span
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </span>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders as a fieldset with description 1`] = `
+<div
+  aria-describedby="test-fieldDescription"
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldset"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <span
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </span>
+  </div>
+  <small
+    class="nel-fieldDescription nel-small"
+    data-ref="fieldDescription.text"
+    id="test-fieldDescription"
+  >
+    More information
+  </small>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders as a fieldset with inline 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldset nel-inlineField"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <span
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </span>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-inlineInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders as a fieldset with rendered multiple children 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldset"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <span
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </span>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field-1"
+      />
+    </div>
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field-2"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders default 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders when optional 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label 
+      <span
+        class="nel-text nel-inlineText"
+        data-ref="text"
+      >
+        (Optional)
+      </span>
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="false"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders when optional with custom text 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label 
+      <span
+        class="nel-text nel-inlineText"
+        data-ref="text"
+      >
+        (Dewisol)
+      </span>
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="false"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: label & silent 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Foo
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: label & type 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Foo
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: label 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Foo
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: label, silent & type 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Foo
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: silent & type 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Error
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: silent 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Error
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with alertOptions: type 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Error
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with all actions 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldWithTopAction nel-fieldActions"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelWithAction nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldActionRight nel-fieldAction"
+    data-ref="fieldActionRight"
+  >
+    <button
+      class="nel-textButton nel-buttonBase"
+      data-ref="button"
+      type="button"
+    >
+      <span
+        class="nel-buttonContent"
+      >
+        Top Action
+      </span>
+    </button>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-fieldActions"
+    data-ref="fieldActions"
+  >
+    <div
+      class="nel-fieldActionLeft nel-fieldAction"
+      data-ref="fieldActionLeft"
+    >
+      <button
+        class="nel-textButton nel-buttonBase"
+        data-ref="button"
+        type="button"
+      >
+        <span
+          class="nel-buttonContent"
+        >
+          Left Action
+        </span>
+      </button>
+    </div>
+    <div
+      class="nel-fieldActionRight nel-fieldAction"
+      data-ref="fieldActionRight"
+    >
+      <button
+        class="nel-textButton nel-buttonBase"
+        data-ref="button"
+        type="button"
+      >
+        <span
+          class="nel-buttonContent"
+        >
+          Right Action
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with className 1`] = `
+<div
+  class="nel-field nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with data-ref 1`] = `
+<div
+  class="nel-field"
+  data-ref="uid.field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="uid.fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="uid.fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with data-ref including all actions 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldWithTopAction nel-fieldActions"
+  data-ref="uid.field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelWithAction nel-fieldLabelContainer"
+    data-ref="uid.fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="uid.fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldActionRight nel-fieldAction"
+    data-ref="uid.fieldActionRight"
+  >
+    <button
+      class="nel-textButton nel-buttonBase"
+      data-ref="button"
+      type="button"
+    >
+      <span
+        class="nel-buttonContent"
+      >
+        Top Action
+      </span>
+    </button>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-fieldActions"
+    data-ref="uid.fieldActions"
+  >
+    <div
+      class="nel-fieldActionLeft nel-fieldAction"
+      data-ref="uid.fieldActionLeft"
+    >
+      <button
+        class="nel-textButton nel-buttonBase"
+        data-ref="button"
+        type="button"
+      >
+        <span
+          class="nel-buttonContent"
+        >
+          Left Action
+        </span>
+      </button>
+    </div>
+    <div
+      class="nel-fieldActionRight nel-fieldAction"
+      data-ref="uid.fieldActionRight"
+    >
+      <button
+        class="nel-textButton nel-buttonBase"
+        data-ref="button"
+        type="button"
+      >
+        <span
+          class="nel-buttonContent"
+        >
+          Right Action
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with description 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <small
+    class="nel-fieldDescription nel-small"
+    data-ref="fieldDescription.text"
+    id="test-fieldDescription"
+  >
+    More information
+  </small>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldDescription"
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with error and error label 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent nel-inlineFirstChild"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Invalid: 
+        </strong>
+      </p>
+      Failed
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with error and warning 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent nel-inlineFirstChild"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Error: 
+        </strong>
+      </p>
+      Failed
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with left action 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-fieldActions"
+    data-ref="fieldActions"
+  >
+    <div
+      class="nel-fieldActionLeft nel-fieldAction"
+      data-ref="fieldActionLeft"
+    >
+      <button
+        class="nel-textButton nel-buttonBase"
+        data-ref="button"
+        type="button"
+      >
+        <span
+          class="nel-buttonContent"
+        >
+          Left Action
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with multiple errors 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Error
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          1 Failed
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          2 Failed
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with multiple warnings 1`] = `
+<div
+  class="nel-field nel-warningAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-warningInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-warningFormAlertMessage nel-message nel-warningMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-warning"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Warning
+        </strong>
+      </p>
+      <ul
+        class="nel-list nel-ul nel-listBase"
+        data-ref="list"
+      >
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-0"
+        >
+          Check 1
+        </li>
+        <li
+          class="nel-li"
+          data-ref="fieldAlerts.fieldAlert-1"
+        >
+          Check 2
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with other props 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="uid"
+      id="uidFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="uidFieldLabel"
+        data-ref="input"
+        id="uid"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with right action 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-fieldActions"
+    data-ref="fieldActions"
+  >
+    <div
+      class="nel-fieldActionRight nel-fieldAction"
+      data-ref="fieldActionRight"
+    >
+      <button
+        class="nel-textButton nel-buttonBase"
+        data-ref="button"
+        type="button"
+      >
+        <span
+          class="nel-buttonContent"
+        >
+          Right Action
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with single error 1`] = `
+<div
+  class="nel-field nel-errorAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-errorInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-errorFormAlertMessage nel-message nel-errorMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-error"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent nel-inlineFirstChild"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Error: 
+        </strong>
+      </p>
+      Failed
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with single error as false 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with single warning 1`] = `
+<div
+  class="nel-field nel-warningAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-warningInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-warningFormAlertMessage nel-message nel-warningMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-warning"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent nel-inlineFirstChild"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Warning: 
+        </strong>
+      </p>
+      Check
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with single warning as false 1`] = `
+<div
+  class="nel-field"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with tooltip 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+    <span
+      class="nel-tooltip"
+      data-ref="tooltip"
+    >
+      <button
+        aria-describedby="test-field-helpTooltipContent"
+        aria-expanded="false"
+        aria-pressed="false"
+        class="nel-tooltipButton nel-iconButton nel-buttonBase nel-action-24IconButton nel-actionIconButton nel-button nel-buttonBase"
+        data-ref="tooltip.button"
+        id="test-field-help"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="nel-buttonIcon nel-icon nel-action-24"
+          data-ref="tooltip.button.icon"
+          focusable="false"
+          height="1"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 1 1"
+          width="1"
+        />
+      </button>
+      <span
+        aria-hidden="true"
+        aria-live="polite"
+        class="nel-tooltipContent"
+        data-ref="tooltipContent"
+        id="test-field-helpTooltipContent"
+        role="tooltip"
+      />
+    </span>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with top action 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldWithTopAction nel-fieldActions"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelWithAction nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldActionRight nel-fieldAction"
+    data-ref="fieldActionRight"
+  >
+    <button
+      class="nel-textButton nel-buttonBase"
+      data-ref="button"
+      type="button"
+    >
+      <span
+        class="nel-buttonContent"
+      >
+        Top Action
+      </span>
+    </button>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with top action and description 1`] = `
+<div
+  aria-labelledby="test-fieldFieldLabel"
+  class="nel-field nel-fieldWithTopAction nel-fieldActions"
+  data-ref="field"
+  role="group"
+>
+  <div
+    class="nel-fieldLabelWithAction nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldActionRight nel-fieldAction"
+    data-ref="fieldActionRight"
+  >
+    <button
+      class="nel-textButton nel-buttonBase"
+      data-ref="button"
+      type="button"
+    >
+      <span
+        class="nel-buttonContent"
+      >
+        Top Action
+      </span>
+    </button>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Field /> @renders with warning and warning label 1`] = `
+<div
+  class="nel-field nel-warningAlertField nel-alertField"
+  data-ref="field"
+>
+  <div
+    class="nel-fieldLabelContainer"
+    data-ref="fieldLabel"
+  >
+    <label
+      class="nel-fieldLabel nel-h4"
+      data-ref="fieldLabel.heading"
+      for="test-field"
+      id="test-fieldFieldLabel"
+    >
+      Field label
+    </label>
+  </div>
+  <div
+    class="nel-fieldBody"
+  >
+    <div
+      class="nel-input nel-warningInput"
+      data-ref="inputContainer"
+    >
+      <input
+        aria-describedby="test-fieldAlerts"
+        aria-errormessage="test-fieldAlerts"
+        aria-invalid="true"
+        aria-required="true"
+        class="nel-inputControl"
+        data-label-id="test-fieldFieldLabel"
+        data-ref="input"
+        id="test-field"
+      />
+    </div>
+  </div>
+  <div
+    class="nel-formAlertMessage nel-warningFormAlertMessage nel-message nel-warningMessage"
+    data-ref="fieldAlerts.fieldAlerts.message"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="nel-messageIcon nel-icon nel-info-24 nel-infoIconSet nel-warning"
+      data-ref="icon"
+      focusable="false"
+      height="1"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 1 1"
+      width="1"
+    />
+    <div
+      class="nel-messageContent nel-inlineFirstChild"
+      data-ref="fieldAlerts.fieldAlerts.messageContent"
+      id="test-fieldAlerts"
+    >
+      <p
+        class="nel-messageHeading nel-paragraph"
+        data-ref="fieldAlerts.fieldAlerts.messageHeader.text"
+      >
+        <strong
+          class="nel-strong nel-inlineText"
+          data-ref="text"
+        >
+          Careful: 
+        </strong>
+      </p>
+      Check
+    </div>
+  </div>
+</div>
+`;

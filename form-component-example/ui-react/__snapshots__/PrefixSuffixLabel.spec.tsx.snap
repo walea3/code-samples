@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrefixSuffixLabel /> @renders as default 1`] = `
+<div
+  class="nel-inputPrefix nel-inputPrefixSuffix"
+  data-ref="inputPrefix"
+  id="example"
+>
+  as default
+</div>
+`;
+
+exports[`<PrefixSuffixLabel /> @renders with data-ref 1`] = `
+<div
+  class="nel-inputPrefix nel-inputPrefixSuffix"
+  data-ref="uid.inputPrefix"
+  id="example"
+>
+  with data-ref
+</div>
+`;
+
+exports[`<PrefixSuffixLabel /> @renders with data-ref and isSuffix 1`] = `
+<div
+  class="nel-inputSuffix nel-inputPrefixSuffix"
+  data-ref="uid.inputSuffix"
+  id="example"
+>
+  with data-ref and isSuffix
+</div>
+`;
+
+exports[`<PrefixSuffixLabel /> @renders with isSuffix 1`] = `
+<div
+  class="nel-inputSuffix nel-inputPrefixSuffix"
+  data-ref="inputSuffix"
+  id="example"
+>
+  with isSuffix
+</div>
+`;
+
+exports[`<PrefixSuffixLabel /> @renders with other props 1`] = `
+<div
+  class="nel-inputPrefix nel-inputPrefixSuffix"
+  data-custom="uid"
+  data-ref="inputPrefix"
+  id="example"
+>
+  with other props
+</div>
+`;

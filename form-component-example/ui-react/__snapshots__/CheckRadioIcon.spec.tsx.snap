@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckRadioIcon /> @renders available CheckIcon variants 1`] = `
+Object {
+  "checkbox": "M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z",
+  "radio": "M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z",
+}
+`;
+
+exports[`<CheckRadioIcon /> @renders variant as checkbox 1`] = `
+<svg
+  aria-hidden="true"
+  focusable="false"
+  viewBox="0 0 28 28"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+  />
+</svg>
+`;
+
+exports[`<CheckRadioIcon /> @renders variant as radio 1`] = `
+<svg
+  aria-hidden="true"
+  focusable="false"
+  viewBox="0 0 28 28"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+  />
+</svg>
+`;

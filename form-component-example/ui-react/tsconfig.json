@@ -1,0 +1,19 @@
+{
+  "extends": "@nel-ui/tooling-typescript",
+  "exclude": ["dist", "**/*.spec.*"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../styles" },
+    { "path": "../../typography/ui-react" },
+    { "path": "../../icon/ui-react" },
+    { "path": "../../form/styles" },
+    { "path": "../../list/styles" },
+    { "path": "../../../3.ui-libraries/helpers" },
+    { "path": "../../../tooling/react" }
+  ]
+}

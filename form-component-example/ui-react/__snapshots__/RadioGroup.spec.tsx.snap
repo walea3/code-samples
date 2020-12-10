@@ -1,0 +1,838 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup /> @renders as default 1`] = `
+<div
+  class="nel-checkRadioGroup"
+>
+  <div
+    class="nel-checkRadioGroupInner"
+  >
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="radio-test-0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="radio-test-1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="radio-test-2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup /> @renders with className 1`] = `
+<div
+  class="nel-checkRadioGroup custom-className"
+>
+  <div
+    class="nel-checkRadioGroupInner"
+  >
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="radio-test-0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="radio-test-1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="radio-test-2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup /> @renders with data-ref 1`] = `
+<div
+  class="nel-checkRadioGroup"
+>
+  <div
+    class="nel-checkRadioGroupInner"
+  >
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="uid.0.radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="uid.0.radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="radio-test-0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="uid.0.radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="uid.0.radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="uid.1.radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="uid.1.radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="radio-test-1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="uid.1.radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="uid.1.radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="uid.2.radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="uid.2.radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="radio-test-2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="uid.2.radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="uid.2.radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup /> @renders with inline 1`] = `
+<div
+  class="nel-checkRadioGroup"
+>
+  <div
+    class="nel-checkRadioGroupInner nel-largeInlineGroup"
+  >
+    <div
+      class="nel-checkRadioContainer nel-inlineCheckRadio"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="radio-test-0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer nel-inlineCheckRadio"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="radio-test-1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer nel-inlineCheckRadio"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="radio-test-2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup /> @renders with items value as number 1`] = `
+<div
+  class="nel-checkRadioGroup"
+>
+  <div
+    class="nel-checkRadioGroupInner"
+  >
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup /> @renders with no items 1`] = `null`;
+
+exports[`<RadioGroup /> @renders with other props 1`] = `
+<div
+  class="nel-checkRadioGroup"
+  data-custom="uid"
+>
+  <div
+    class="nel-checkRadioGroupInner"
+  >
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="radio-test-0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="radio-test-1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="radio-test-2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup /> @renders with value 1`] = `
+<div
+  class="nel-checkRadioGroup"
+>
+  <div
+    class="nel-checkRadioGroupInner"
+  >
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        checked=""
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-0"
+        name="test-list"
+        type="radio"
+        value="radio-test-0"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-0"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 0
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-1"
+        name="test-list"
+        type="radio"
+        value="radio-test-1"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-1"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 1
+      </label>
+    </div>
+    <div
+      class="nel-checkRadioContainer"
+      data-ref="radioContainer"
+    >
+      <input
+        aria-invalid="false"
+        class="nel-checkRadioInput"
+        data-ref="radioInput"
+        id="radio-test-2"
+        name="test-list"
+        type="radio"
+        value="radio-test-2"
+      />
+      <label
+        class="nel-checkRadio nel-radio"
+        data-ref="radio"
+        for="radio-test-2"
+      >
+        <span
+          class="nel-checkRadioControl"
+          data-ref="radioControl"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            viewBox="0 0 28 28"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+            />
+          </svg>
+        </span>
+        Item 2
+      </label>
+    </div>
+  </div>
+</div>
+`;

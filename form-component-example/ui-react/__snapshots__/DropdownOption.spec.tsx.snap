@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownOption /> @renders default 1`] = `
+<li
+  aria-selected="false"
+  class="nel-dropdownOption nel-text"
+  data-ref="dropdownOption.text"
+  id="option-1"
+  role="option"
+>
+  Dropdown option
+</li>
+`;
+
+exports[`<DropdownOption /> @renders when active 1`] = `
+<li
+  aria-selected="true"
+  class="nel-dropdownOption nel-activeDropdownOption nel-text"
+  data-ref="dropdownOption.text"
+  id="option-1"
+  role="option"
+>
+  Dropdown option
+</li>
+`;
+
+exports[`<DropdownOption /> @renders when selected 1`] = `
+<li
+  aria-selected="false"
+  class="nel-dropdownOption nel-selectedDropdownOption nel-text"
+  data-ref="dropdownOption.text"
+  id="option-1"
+  role="option"
+>
+  Dropdown option
+</li>
+`;
+
+exports[`<DropdownOption /> @renders with data-ref 1`] = `
+<li
+  aria-selected="false"
+  class="nel-dropdownOption nel-text"
+  data-ref="uid.dropdownOption.text"
+  id="option-1"
+  role="option"
+>
+  Dropdown option
+</li>
+`;
+
+exports[`<DropdownOption /> @renders with other props 1`] = `
+<li
+  aria-selected="false"
+  class="nel-dropdownOption nel-text"
+  data-ref="dropdownOption.text"
+  id="test"
+  role="option"
+>
+  Dropdown option
+</li>
+`;

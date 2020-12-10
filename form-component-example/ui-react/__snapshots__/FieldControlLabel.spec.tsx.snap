@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders as default 1`] = `
+<div>
+  element
+</div>
+`;
+
+exports[`@renders with className 1`] = `
+<div
+  class="custom-className nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+  >
+    fieldControlLabel-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;
+
+exports[`@renders with data-ref 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="uid.fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="uid.fieldControlLabel"
+  >
+    fieldControlLabel-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;
+
+exports[`@renders with htmlFor 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="fieldControlLabel-htmlFor"
+    id="fieldControlLabel-test-id"
+  >
+    fieldControlLabel-test-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;
+
+exports[`@renders with id 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="fieldControlLabel-test-htmlFor"
+    id="fieldControlLabel-id"
+  >
+    fieldControlLabel-test-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;
+
+exports[`@renders with inline 1`] = `
+<div
+  class="nel-fieldControlLabelContainer nel-inlineContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+  >
+    fieldControlLabel-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;
+
+exports[`@renders with label 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+    for="fieldControlLabel-test-htmlFor"
+    id="fieldControlLabel-test-id"
+  >
+    fieldControlLabel-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;
+
+exports[`@renders with other props 1`] = `
+<div
+  class="nel-fieldControlLabelContainer"
+  data-custom="custom-value"
+  data-ref="fieldControlLabelContainer"
+>
+  <label
+    class="nel-inputLabel"
+    data-ref="fieldControlLabel"
+  >
+    fieldControlLabel-label
+  </label>
+  <div>
+    element
+  </div>
+</div>
+`;

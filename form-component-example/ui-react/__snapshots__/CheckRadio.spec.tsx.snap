@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders as checkbox 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="checkboxContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="checkboxInput"
+    id="checkbox-test"
+    type="checkbox"
+  />
+  <label
+    class="nel-checkRadio nel-checkbox"
+    data-ref="checkbox"
+    for="checkbox-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="checkboxControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+        />
+      </svg>
+    </span>
+    checkbox-test
+  </label>
+</div>
+`;
+
+exports[`@renders as checkbox with custom title 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="checkboxContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="checkboxInput"
+    id="checkbox-test"
+    type="checkbox"
+  />
+  <label
+    class="nel-checkRadio nel-checkbox"
+    data-ref="checkbox"
+    for="checkbox-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="checkboxControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      a 
+      <strong>
+        custom
+      </strong>
+       title
+    </span>
+  </label>
+</div>
+`;
+
+exports[`@renders as radio 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="radioContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="radioInput"
+    id="radio-test"
+    type="radio"
+  />
+  <label
+    class="nel-checkRadio nel-radio"
+    data-ref="radio"
+    for="radio-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="radioControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+        />
+      </svg>
+    </span>
+    radio-test
+  </label>
+</div>
+`;
+
+exports[`@renders as radio with custom title 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="radioContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="radioInput"
+    id="radio-test"
+    type="radio"
+  />
+  <label
+    class="nel-checkRadio nel-radio"
+    data-ref="radio"
+    for="radio-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="radioControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+        />
+      </svg>
+    </span>
+    <span>
+      a 
+      <strong>
+        custom
+      </strong>
+       title
+    </span>
+  </label>
+</div>
+`;
+
+exports[`@renders variant shorthand @renders <Checkbox /> 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="checkboxContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="checkboxInput"
+    id="variantTest"
+    type="checkbox"
+  />
+  <label
+    class="nel-checkRadio nel-checkbox"
+    data-ref="checkbox"
+    for="variantTest"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="checkboxControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+        />
+      </svg>
+    </span>
+    variantTest
+  </label>
+</div>
+`;
+
+exports[`@renders variant shorthand @renders <Radio /> 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="radioContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="radioInput"
+    id="variantTest"
+    type="radio"
+  />
+  <label
+    class="nel-checkRadio nel-radio"
+    data-ref="radio"
+    for="variantTest"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="radioControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+        />
+      </svg>
+    </span>
+    variantTest
+  </label>
+</div>
+`;
+
+exports[`@renders with data-ref as checkbox 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="uid.checkboxContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="uid.checkboxInput"
+    id="checkbox-test"
+    type="checkbox"
+  />
+  <label
+    class="nel-checkRadio nel-checkbox"
+    data-ref="uid.checkbox"
+    for="checkbox-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="uid.checkboxControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+        />
+      </svg>
+    </span>
+    checkbox-test
+  </label>
+</div>
+`;
+
+exports[`@renders with data-ref as radio 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="uid.radioContainer"
+>
+  <input
+    aria-invalid="false"
+    class="nel-checkRadioInput"
+    data-ref="uid.radioInput"
+    id="radio-test"
+    type="radio"
+  />
+  <label
+    class="nel-checkRadio nel-radio"
+    data-ref="uid.radio"
+    for="radio-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="uid.radioControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+        />
+      </svg>
+    </span>
+    radio-test
+  </label>
+</div>
+`;
+
+exports[`@renders with error as checkbox 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="checkboxContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-checkRadioInput"
+    data-ref="checkboxInput"
+    id="checkbox-test"
+    type="checkbox"
+  />
+  <label
+    class="nel-checkRadio nel-checkbox nel-errorCheckRadio"
+    data-ref="checkbox"
+    for="checkbox-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="checkboxControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+        />
+      </svg>
+    </span>
+    checkbox-test
+  </label>
+</div>
+`;
+
+exports[`@renders with error as radio 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="radioContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-checkRadioInput"
+    data-ref="radioInput"
+    id="radio-test"
+    type="radio"
+  />
+  <label
+    class="nel-checkRadio nel-radio nel-errorCheckRadio"
+    data-ref="radio"
+    for="radio-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="radioControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+        />
+      </svg>
+    </span>
+    radio-test
+  </label>
+</div>
+`;
+
+exports[`@renders with warning as checkbox 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="checkboxContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-checkRadioInput"
+    data-ref="checkboxInput"
+    id="checkbox-test"
+    type="checkbox"
+  />
+  <label
+    class="nel-checkRadio nel-checkbox nel-warningCheckRadio"
+    data-ref="checkbox"
+    for="checkbox-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="checkboxControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5,7.4l-8,7.9l-1.9-1.9l-2.1,2.1l4,4.1L21.6,9.5L19.5,7.4z"
+        />
+      </svg>
+    </span>
+    checkbox-test
+  </label>
+</div>
+`;
+
+exports[`@renders with warning as radio 1`] = `
+<div
+  class="nel-checkRadioContainer"
+  data-ref="radioContainer"
+>
+  <input
+    aria-invalid="true"
+    class="nel-checkRadioInput"
+    data-ref="radioInput"
+    id="radio-test"
+    type="radio"
+  />
+  <label
+    class="nel-checkRadio nel-radio nel-warningCheckRadio"
+    data-ref="radio"
+    for="radio-test"
+  >
+    <span
+      class="nel-checkRadioControl"
+      data-ref="radioControl"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        viewBox="0 0 28 28"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14,19L14,19c-2.8,0-5-2.2-5-5v0c0-2.8,2.2-5,5-5h0c2.8,0,5,2.2,5,5v0C19,16.8,16.8,19,14,19z"
+        />
+      </svg>
+    </span>
+    radio-test
+  </label>
+</div>
+`;

@@ -1,0 +1,29 @@
+{
+  "name": "@nel-ui/form-react",
+  "version": "1.0.0-beta.10",
+  "description": "NEL UI Form - React Components",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "dependencies": {
+    "@nel-ui/form-styles": "0.1.0-beta.9",
+    "@nel-ui/icon-react": "0.1.0-beta.10",
+    "@nel-ui/js-helpers": "0.1.0-beta.5",
+    "@nel-ui/list-react": "0.1.0-beta.10",
+    "@nel-ui/tooling-react": "0.1.0-beta.7",
+    "@nel-ui/typography-react": "0.1.0-beta.9"
+  },
+  "devDependencies": {
+    "@nel-ui/button-react": "0.1.0-beta.10"
+  }
+}
